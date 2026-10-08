@@ -1,0 +1,17 @@
+{
+  "name": "student-information-server",
+  "version": "1.0.0",
+  "description": "Basic Student Information Portal using Node.js HTTP module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "http",
+    "student-portal",
+    "basic-web-server"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Student Information Portal</title>
+    <meta
+      name="description"
+      content="About the Student Information Portal and how it uses Node.js HTTP server concepts."
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand-wrap">
+          <div class="brand-badge">S</div>
+          <div class="brand-text">Student Information Portal</div>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/about" class="nav-link active">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <section class="page-card panel">
+        <div class="section-head">
+          <h1>About Student Information Portal</h1>
+          <span class="section-tag">Project Overview</span>
+        </div>
+
+        <p>
+          This project was developed as a practical demonstration of how a basic web application
+          can be served using Node.js. It presents student-related information in a simple,
+          structured, and visually appealing format.
+        </p>
+        <p>
+          The purpose of the portal is to display academic and personal details in a clean and
+          professional way while making the fundamentals of web servers easy to understand.
+        </p>
+
+        <div class="feature-grid">
+          <div class="feature-box">
+            <h3>Purpose</h3>
+            <p>
+              To provide a realistic student information display for laboratory learning and
+              demonstration.
+            </p>
+          </div>
+          <div class="feature-box">
+            <h3>Technology</h3>
+            <p>
+              Node.js is used to create the server environment, and the built-in HTTP module is
+              used to handle requests.
+            </p>
+          </div>
+          <div class="feature-box">
+            <h3>Server Setup</h3>
+            <p>
+              The application listens on port 3000 and serves HTML and CSS files from the public
+              directory.
+            </p>
+          </div>
+        </div>
+
+        <ul class="about-list">
+          <li>Node.js is used to create the web server.</li>
+          <li>The built-in HTTP module handles incoming requests and responses.</li>
+          <li>The server listens on port 3000 and responds to browser requests.</li>
+          <li>HTML and CSS files are served from the public folder.</li>
+          <li>Different routes are used to display the home page and about page.</li>
+        </ul>
+
+        <div class="cta-row">
+          <a href="/" class="nav-button">Back to Home</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Student Information Portal • Node.js Experiment</p>
+      </div>
+    </footer>
+  </body>
+</html>
